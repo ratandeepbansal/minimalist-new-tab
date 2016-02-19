@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Minimalist New Tab Clock",
+  "description": "This is a pure minimalist new tab clock for Google Chrome. When you open the new tab, you see a simple apple watch fitness like, striped clock.",
+  "version": "0.0",
+
+  "permissions": [
+  ],
+  "browser_action": {
+   "default_icon": "icon.png",
+ },
+  "chrome_url_overrides":{
+    "newtab": "index.html"
+  }
+}
